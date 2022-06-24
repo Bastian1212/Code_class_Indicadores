@@ -17,8 +17,8 @@ let indicador1 = new indicadoresBuilder("C01").makeCalificacionCORFO("Crítico")
 app.set('port',3000)
 
 app.get('/', (req, res) =>{
-    res.send("prueba" + indicador1.getCalificacionCORFO())
-
+    res.send("CalificacionCORFO: " + indicador1.getCalificacionCORFO())
+    
 })
 
 
