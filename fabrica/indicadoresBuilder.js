@@ -88,4 +88,4 @@ class indicadoresBuilder{
 }
 
 
-module.exports = indicadoresBuilder
+module.exports = {indicadoresBuilder};
